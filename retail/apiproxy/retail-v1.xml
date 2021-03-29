@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="6" name="retail-v1">
+    <Basepaths>/retail/v1</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1616525538435</CreatedAt>
+    <CreatedBy>eceledonio@nearbpo.com</CreatedBy>
+    <Description>Retail backend database used for Apigee API Engineer training class</Description>
+    <DisplayName>retail-v1</DisplayName>
+    <LastModifiedAt>1616701711343</LastModifiedAt>
+    <LastModifiedBy>eceledonio@nearbpo.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:89857b6a79ac4419061e7adf5991fe5390a2b9eee6e7fd5189c4be1adcea82a377e2c67e6adb3122bbbcd8eba7b0ccad4a4ed92de113ec0a761c843de5c335d2:us-west-2</ManifestVersion>
+    <Policies>
+        <Policy>AM-400JSONThreat</Policy>
+        <Policy>AM-RemoveAuthHeader</Policy>
+        <Policy>AM-SetCORSHeaders</Policy>
+        <Policy>BA-AddAuthHeader</Policy>
+        <Policy>EV-ExtractAddress</Policy>
+        <Policy>EV-ExtractCoordinates</Policy>
+        <Policy>FC-BackendCredentials</Policy>
+        <Policy>J2X-Convert</Policy>
+        <Policy>JS-MashupAddress</Policy>
+        <Policy>JTP-Protect</Policy>
+        <Policy>KVM-GetCredentials</Policy>
+        <Policy>OAuth-v20-1</Policy>
+        <Policy>Q-EnforceQuota</Policy>
+        <Policy>RC-ProductsCache</Policy>
+        <Policy>RF-404NotFound</Policy>
+        <Policy>RF-InvalidContentType</Policy>
+        <Policy>RF-PreFlightCORS</Policy>
+        <Policy>SA-SpikeArrest</Policy>
+        <Policy>SC-GoogleMaps</Policy>
+        <Policy>VAK-VerifyKey</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>openapi://association.json</Resource>
+        <Resource>jsc://mashupAddress.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
