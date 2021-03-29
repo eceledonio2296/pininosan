@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AM-400JSONThreat" version="SHA-512:8928dfb7b98ad5e0d044b97f345c986629352eb14d2ec1d83058e0a36463cb2a0cd0774fe00fd7dd17d0f4553c97663e2ab18d5149ebd5a65de47874f09c0d24"/>
+        <VersionInfo resourceName="AM-RemoveAuthHeader" version="SHA-512:b5d887efa0750859a01a2a5559b064acf5a577bff38b6dc5d8a0f1163f9620213dc0c7f35bff8876a23c6a6502c74e1a2515601bede17a9740047683ae325ac4"/>
+        <VersionInfo resourceName="AM-SetCORSHeaders" version="SHA-512:ff05452efb36bcbdfe344bda98cf1d70e0ab0bf5deb30844619ead434db99cf0f9606ceb7c45aadc9893337f233a9405bc928ccb18160d33bd23b8e345fe1aca"/>
+        <VersionInfo resourceName="BA-AddAuthHeader" version="SHA-512:7e3202f3c0aa975456007342acfa8c23f24b43f83ce38c5d1dcabe7d0ffed4be9bf0a4aae7ecdade30c273c0593d1573ee915285e097df0857bbcd5637ac8390"/>
+        <VersionInfo resourceName="EV-ExtractAddress" version="SHA-512:73c66cb1c4879a746ecb2b02b662dbc29fe00e7afdb00e4fd7aef3be2be4d9cafe98d8ca893f3ef29da79dd2089f0e2eb4654269995eb2651bb860a35190a7e5"/>
+        <VersionInfo resourceName="EV-ExtractCoordinates" version="SHA-512:56244ce44bf97c4169f309814d8e7943f7bc48b7641feb810e0d3ac6ce66d4f1fdfe8499974415b58ae31fd60d1f97f320ebd42520a1ebf3357fa1696b18ae73"/>
+        <VersionInfo resourceName="FC-BackendCredentials" version="SHA-512:92076b64771320afb75c7eabec6df45301a6b50e604068f38fd69fb77f60ab7715bfd04abff5295375087299630bbf93e186e0ec7570eb35f00de9e9b8bf3e4d"/>
+        <VersionInfo resourceName="J2X-Convert" version="SHA-512:9a03aa78e3825b1479230cf3cbe8368854f2c87798c0ae0cd6e774d0775fb9c96de9bb60a73407b2e2ed1b771e0b53cf44ed7d6314923211badcf2706dc464c8"/>
+        <VersionInfo resourceName="JS-MashupAddress" version="SHA-512:61822aeb97463b9532b2a6b42963cbd236a8155a139627bc1a29147a11a13edffb9df0bcd3b40f26d0dda6820840dc6d91fcba9b38b77148fc7865d064d8fd81"/>
+        <VersionInfo resourceName="JTP-Protect" version="SHA-512:74c2ba2ff1e0c9b7a56539bb0ecfc2acc609da16432293433f87203b6e4eb428bed5e2951d064422b5b952ae896abb7e80a44cf8a4e9c1d0df97635a9b69d295"/>
+        <VersionInfo resourceName="KVM-GetCredentials" version="SHA-512:4b239e464d0f309f45cf8edcccec9b13cafb9179c5ac5c23aab8160b991751e41cbd6f5cf36fde5942b5e952aecb387424bb51dfc0c6d1a84daf4a434b7fc3d1"/>
+        <VersionInfo resourceName="OAuth-v20-1" version="SHA-512:f2285a77684ac52756a1ada503b04c804c3d4b02100ac734511fdf9fd99571dd6e926b2b50ab74983b85f651bbee35bed9beb492a0c7fdbad7539f2305207768"/>
+        <VersionInfo resourceName="Q-EnforceQuota" version="SHA-512:1e7064ccf2966c113d74acf3b8009426d9bf370fe1b14775430ff2f1afd98d87d9efacf51b29feb8d57ef07f5e5598ab62d4b62b1162178fde7154164fa77677"/>
+        <VersionInfo resourceName="RC-ProductsCache" version="SHA-512:28624a7eb95d6e1b8a3790ce5f7c766e8fb1d468c1af6137ac6e4fc6f4337476ccff5427d56fc285d1f5047f3d9db9c012c65c3dc2d71a5f5dd5b9ccbb3e215f"/>
+        <VersionInfo resourceName="RF-404NotFound" version="SHA-512:b0c5d522a448d8fb958901e4695b867cbe26b05835b31675caef98e514c8541a34b71ccdc0914db0d772efdaaf6c8408f060edbd05c83cf4ba6fade1bc212ce0"/>
+        <VersionInfo resourceName="RF-InvalidContentType" version="SHA-512:58e55ee75e536c222088f4222af4be7b70beb45c35c4332e46a661f3a4ac14464f86ffb6bf9b6b98cbd7d8a3dbb485117012b4fd46d246849fc392f882c8e50d"/>
+        <VersionInfo resourceName="RF-PreFlightCORS" version="SHA-512:a0192a3a589020e6840c0b56dac0d5d134da80a7898f8e6cfd4960e4918abfafa312297d3e119cb717713e40a26a440e7699340561cc7c7562a8b6e80bae4ddf"/>
+        <VersionInfo resourceName="SA-SpikeArrest" version="SHA-512:f109684948cb14b55d86b86b89a039bd74ca46036efb6e682c607724e6680a1a012639c75a638e1ca13b5277ea58af256e0def9e9239312bc9bdcfedba50c7c7"/>
+        <VersionInfo resourceName="SC-GoogleMaps" version="SHA-512:281f582688af27336f09b555c473c41f9b1d6cc3ee81c11db59c5899d564968908cc5f5b9a75bca258d1a2daf9f26b211129706ec165d375e0ff39332901a19a"/>
+        <VersionInfo resourceName="VAK-VerifyKey" version="SHA-512:6c0a69bfacbb84a390d5a93bb35509c104e2d5a67a89c631488ffad519697f8f836c72bc4857902d6cdba74bd911ab8e3b16375d639e113bcfc1531c62cea3d7"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:122d220ce55411a58867a16428169d5b47b8e6e3683d486de5b016f2ac605a26749aab220a61216c29cadb8ae6763fe58579c22165ff46d6c7af14cd330b8897"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://mashupAddress.js" version="SHA-512:0a68673ad901fac7344a215ac4610eee8dd4fe7e7585c614562cef7db03f890ea6d5a329d411244cd52da3bc7c71d6136f12d5bf04d2a21247e91a2a87204d70"/>
+        <VersionInfo resourceName="openapi://association.json" version="SHA-512:472eebbf8d1253ba5589d68cfa5db76ee978ac7bbdec8bd2b6dfaefeb28aa48744abf502c1d1db1c7254c8b2d3bafdb9df6bd7acdc7109df59acbcdb22ee6005"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:e16e08739c9542e8347b0bd7e07efbfdddbab6b39bcaec795e29bcde7e5cc84b3adb366efd409e7ea4d514187fa8f3914ff410756945187119945c46a62f608b"/>
+    </TargetEndpoints>
+</Manifest>

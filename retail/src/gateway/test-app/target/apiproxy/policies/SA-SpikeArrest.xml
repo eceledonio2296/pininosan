@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SpikeArrest async="false" continueOnError="false" enabled="true" name="SA-SpikeArrest">
+    <Rate>200ps</Rate>
+</SpikeArrest>
